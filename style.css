@@ -397,3 +397,7 @@ body{
 main{
   flex: 1;
 }
+.footer{
+  background: rgba(255,255,255,.6);
+  border-top: 1px solid var(--line);
+}
