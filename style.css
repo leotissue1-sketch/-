@@ -414,3 +414,20 @@ main{
   display: inline-block;
   padding: 2px 0;
 }
+.footer .footer-inner{
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: center;
+  text-align: center;
+}
+
+.footer .small{
+  margin: 0;
+}
+
+.footer a{
+  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
