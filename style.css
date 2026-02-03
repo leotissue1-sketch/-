@@ -380,3 +380,11 @@ h2{
     margin-top: 10px;
   }
 }
+.footer a{
+  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.footer a:hover{
+  opacity: .85;
+}
